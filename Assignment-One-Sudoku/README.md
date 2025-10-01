@@ -1,128 +1,36 @@
-
-**To update your README.md file:**
-
-```powershell
-@"
-# 🎯 Assignment One - Sudoku Game
+# Assignment One - Sudoku Game
 
 A fully functional 9x9 Sudoku game built with Jaclang as part of the Generative AI Course.
 
-## 🚀 Features
+## Features
 
-- **9x9 Sudoku Grid** with pre-filled numbers for immediate gameplay
-- **Interactive Gameplay** with real-time move validation
-- **Complete Rule Validation** enforcing Sudoku rules (row, column, and 3x3 box constraints)
-- **Input Validation** with helpful error messages for invalid moves
-- **Win Condition Detection** automatically detects when the puzzle is solved
-- **Original Number Protection** prevents modification of pre-filled puzzle numbers
+- 9x9 Sudoku grid with pre-filled numbers
+- Interactive gameplay
+- Complete Sudoku rule validation (row, column, 3x3 box)
+- Input validation and error handling
+- Win condition detection
+- Protection for original puzzle numbers
 
-## 🎮 How to Play
+## How to Play
 
-1. **Start the Game**: Run `jac run src/sudoku_game.jac`
-2. **Enter Moves**: Use the format `row column number`
+1. Run the game: `jac run src/sudoku_game.jac`
+2. Enter moves in the format: `row column number`
    - Example: `0 2 8` places number 8 at row 0, column 2
-3. **Follow Sudoku Rules**:
+3. Follow Sudoku rules:
    - Each row must contain numbers 1-9 without repetition
-   - Each column must contain numbers 1-9 without repetition  
+   - Each column must contain numbers 1-9 without repetition
    - Each 3x3 box must contain numbers 1-9 without repetition
-4. **Exit**: Type `quit` to exit the game at any time
+4. Type `quit` to exit the game
 
-## 📁 Project Structure
+## Requirements
 
-\`\`\`
-Assignment-One-Sudoku/
-├── src/
-│   ├── sudoku_game.jac      # Main interactive game file
-│   └── grid_display.jac     # Simple grid display demo
-├── docs/
-│   └── instructions.md      # Detailed game instructions
-├── examples/
-│   └── demo.jac            # Validation demo version
-└── README.md               # This file
-\`\`\`
+- Python 3.7+
+- Jaclang 0.8.7+
 
-## ⚙️ Requirements
+## Installation
 
-- **Python 3.7+**
-- **Jaclang 0.8.7+**
-
-## 🔧 Installation & Setup
-
-### Step 1: Navigate to Project Directory
-\`\`\`bash
-cd Assignment-One-Sudoku
-\`\`\`
-
-### Step 2: Create Virtual Environment (Recommended)
-\`\`\`bash
-python -m venv .venv
-\`\`\`
-
-### Step 3: Activate Virtual Environment
-\`\`\`bash
-# Windows
-.venv\Scripts\activate
-
-# macOS/Linux
-source .venv/bin/activate
-\`\`\`
-
-### Step 4: Install Jaclang
-\`\`\`bash
-pip install jaclang
-\`\`\`
-
-### Step 5: Run the Game
-\`\`\`bash
-jac run src/sudoku_game.jac
-\`\`\`
-
-## 🎪 Game Preview
-
-\`\`\`
-🎯 9x9 SUDOKU GAME 🎯
-=====================
-Current board:
-3 4 . 9 . 5 7 . 1
-9 . 1 . 5 . . . .
-. 1 . 5 . . . . .
-. . 7 . . 3 9 . .
-4 6 9 . . 2 . . .
-. . . . . . . . .
-. . . . . . . . .
-. . . . . . . . .
-. . . . . . . . .
-
-Enter your move (row col num): 
-\`\`\`
-
-## 💡 Alternative Commands
-
-\`\`\`bash
-# Simple grid display
-jac run src/grid_display.jac
-
-# Validation demo
-jac run examples/demo.jac
-\`\`\`
-
-## 🛠️ Technical Features
-
-- **Smart Validation**: Real-time checking of row, column, and 3x3 box constraints
-- **User-Friendly Interface**: Clear prompts and descriptive error messages
-- **Game State Management**: Automatic progress tracking and win detection
-- **Error Handling**: Comprehensive input validation with helpful feedback
-- **Original Number Protection**: Prevents accidental modification of puzzle clues
-
-## 👨‍💻 Author
-
-**Jaleel Mwero**
-
-## 📚 Course
-
-**Generative AI Course** - Open University
-
----
-
-*Built with ❤️ using Jaclang for educational purposes*
-"@ | Set-Content -Path "README.md" -Encoding UTF8
+1. Navigate to this directory
+2. Create a virtual environment:
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate  # Windows
