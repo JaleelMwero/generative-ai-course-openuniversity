@@ -27,10 +27,4 @@ A fully functional 9x9 Sudoku game built with Jaclang as part of the Generative 
 - Python 3.7+
 - Jaclang 0.8.7+
 
-## Installation
 
-1. Navigate to this directory
-2. Create a virtual environment:
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate  # Windows
