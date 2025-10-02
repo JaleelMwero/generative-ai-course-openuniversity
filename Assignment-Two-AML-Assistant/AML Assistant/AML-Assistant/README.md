@@ -16,13 +16,10 @@ An AI-powered Anti-Money Laundering system that automatically detects suspicious
 - FinTech Companies
 - Regulatory Compliance Officers
 
-## How to Run
-\\\bash
+## Quick Start
 
-pip install -r requirements.txt
-
-python main.py\\\
-
-The system will automatically demo its capabilities with test transactions and risk analysis.
-
+From AML-Assistant Directory (Recommended)
+```bash
+cd AML-Assistant
+python main.py
 
