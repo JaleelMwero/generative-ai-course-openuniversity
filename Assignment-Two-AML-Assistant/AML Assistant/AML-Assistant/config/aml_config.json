@@ -1,0 +1,27 @@
+{
+  "ai": {
+    "provider": "local",
+    "api_key": null,
+    "model": "gpt-4",
+    "enable_learning": true,
+    "confidence_threshold": 0.7
+  },
+  "banking": {
+    "simulation_mode": true,
+    "core_system": "auto",
+    "integration_type": "api",
+    "auto_detect_changes": true
+  },
+  "risk": {
+    "ctr_threshold": 10000,
+    "suspicious_threshold": 8000,
+    "high_risk_score": 70,
+    "adaptive_thresholds": true
+  },
+  "learning": {
+    "enable_adaptive_learning": true,
+    "model_retraining_days": 7,
+    "pattern_memory_size": 1000,
+    "feedback_loop": true
+  }
+}

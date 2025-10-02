@@ -1,0 +1,7 @@
+﻿# requirements.txt
+byllm>=0.4.2
+pydantic>=2.0.0
+asyncio
+python-dotenv>=1.0.0
+litellm>=1.7.0
+openai>=1.0.0
