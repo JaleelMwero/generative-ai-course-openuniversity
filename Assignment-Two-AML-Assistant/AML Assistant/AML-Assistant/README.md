@@ -17,9 +17,11 @@ An AI-powered Anti-Money Laundering system that automatically detects suspicious
 - Regulatory Compliance Officers
 
 ## How to Run
-\\\ash
+\\\bash
+
 pip install -r requirements.txt
-python main.py
-\\\
+
+python main.py\\\
 
 The system will automatically demo its capabilities with test transactions and risk analysis.
+
