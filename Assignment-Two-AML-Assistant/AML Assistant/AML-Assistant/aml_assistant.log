@@ -1,0 +1,23 @@
+2025-10-02 13:47:24,240 - __main__ - ERROR - Application error: source code string cannot contain null bytes
+2025-10-02 13:48:00,191 - __main__ - ERROR - Application error: source code string cannot contain null bytes
+2025-10-02 13:56:27,223 - src.ai.intelligent_engine - INFO - AI Engine initialized with provider: local
+2025-10-02 13:56:27,224 - src.integration.bank_system - INFO - Simulation system initialized
+2025-10-02 13:56:27,225 - src.integration.bank_system - INFO - Running in simulation mode - no real bank system connected
+2025-10-02 13:56:27,225 - src.core.aml_assistant - INFO - Ultimate AML Assistant initialized
+2025-10-02 13:56:27,531 - src.core.aml_assistant - INFO - Transaction DEMO_NORMAL_001 analyzed - Risk: medium
+2025-10-02 13:56:27,913 - src.core.aml_assistant - INFO - Transaction DEMO_HIGH_RISK_001 analyzed - Risk: medium
+2025-10-02 13:56:28,230 - src.core.aml_assistant - INFO - Transaction DEMO_STRUCT_001 analyzed - Risk: medium
+2025-10-02 14:42:39,354 - src.ai.intelligent_engine - INFO - AI Engine initialized with provider: local
+2025-10-02 14:42:39,356 - src.integration.bank_system - INFO - Simulation system initialized
+2025-10-02 14:42:39,356 - src.integration.bank_system - INFO - Running in simulation mode - no real bank system connected
+2025-10-02 14:42:39,357 - src.core.aml_assistant - INFO - Ultimate AML Assistant initialized
+2025-10-02 14:42:39,675 - src.core.aml_assistant - INFO - Transaction DEMO_NORMAL_001 analyzed - Risk: medium
+2025-10-02 14:42:39,991 - src.core.aml_assistant - INFO - Transaction DEMO_HIGH_RISK_001 analyzed - Risk: medium
+2025-10-02 14:42:40,308 - src.core.aml_assistant - INFO - Transaction DEMO_STRUCT_001 analyzed - Risk: medium
+2025-10-02 15:56:10,004 - src.ai.intelligent_engine - INFO - AI Engine initialized with provider: local
+2025-10-02 15:56:10,005 - src.integration.bank_system - INFO - Simulation system initialized
+2025-10-02 15:56:10,006 - src.integration.bank_system - INFO - Running in simulation mode - no real bank system connected
+2025-10-02 15:56:10,006 - src.core.aml_assistant - INFO - Ultimate AML Assistant initialized
+2025-10-02 15:56:10,331 - src.core.aml_assistant - INFO - Transaction DEMO_NORMAL_001 analyzed - Risk: medium
+2025-10-02 15:56:10,661 - src.core.aml_assistant - INFO - Transaction DEMO_HIGH_RISK_001 analyzed - Risk: medium
+2025-10-02 15:56:10,977 - src.core.aml_assistant - INFO - Transaction DEMO_STRUCT_001 analyzed - Risk: medium
