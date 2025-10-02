@@ -1,4 +1,4 @@
-﻿# Ultimate AML Assistant
+﻿# AML Assistant
 
 ## Overview
 An AI-powered Anti-Money Laundering system that automatically detects suspicious transactions using intelligent pattern recognition and risk assessment.
@@ -24,4 +24,5 @@ pip install -r requirements.txt
 python main.py\\\
 
 The system will automatically demo its capabilities with test transactions and risk analysis.
+
 
